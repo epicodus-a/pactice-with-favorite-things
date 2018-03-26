@@ -14,33 +14,28 @@
       <form class="list" action="index.html" method="post">
 
       <h2>What is your top 3 favorite movies?</h2>
-      <input type="text" name="fmovies1" value="">
-      <button type="Submit">Enter</button>
+      <input type="text" id="favMovies" value="">
 
       <h2>Who is your favorite author?</h2>
-      <input type="text" name="What is your favorite color?" value="">
-      <button type="Submit">Enter</button>
+      <input type="text" id="favAuthor" name="What is your favorite color?" value="">
 
       <h2>What is your favorite animal?</h2>
-      <input type="text" name="What is your favorite color?" value="">
-      <button type="Submit">Enter</button>
+      <input type="text" id="favAnimal" name="What is your favorite color?" value="">
 
       <h2>Who is your favorite food?</h2>
-      <input type="text" name="What is your favorite food?" value="">
+      <input type="text" id="favFood" name="What is your favorite food?" value="">
       <button type="Submit">Enter</button>
 
-      <h2>Your Favorite Things!</h2>
-      <script>
-          var fthing = [];
-          var item = {fmovies:"", fauthor: "", fanimal:"", food};
-
-          fthing.push item);
-      </script>
-
-
-
-
       </form>
+      <h2>Your Favorite Things!</h2>
+      <div class="answer-list">
+        <ul>
+          <li id="el1"></li>
+          <li id="el0"></li>
+          <li id="el2"></li>
+        </ul>
+
+      </div>
     </div>
   </body>
 </html>
